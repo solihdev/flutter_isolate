@@ -8,7 +8,7 @@ class Moneybox {
   Moneybox({required this.summa});
 
   int summa;
-  List<Money> _money = [];
+  final List<Money> _money = [];
 
   void addMoney(Money money) {
     _money.add(money);
