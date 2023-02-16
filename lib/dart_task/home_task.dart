@@ -5,13 +5,16 @@ class Money {
 }
 
 class Moneybox {
-  void addMoney(){}
+  Moneybox({required this.summa});
 
-  void isEmpty(){}
+  int summa;
+  List<Money> _money = [];
 
-  void isFull(){}
+  void addMoney(Money money) {
+    _money.add(money);
+  }
 
-  void getMoneyCunt(){}
+  bool isEmpty() => _money.isEmpty;
 
-  void getAmount(){}
+  void getMoneyCunt() => _money.length;
 }
