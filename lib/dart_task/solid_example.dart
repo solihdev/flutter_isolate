@@ -1,5 +1,5 @@
 void main() {
-  RaceManager raceManager = RaceManager();
+  FruitFactory raceManager = FruitFactory();
 
   raceManager.determineColor(Apple());
   raceManager.determineColor(Lemon());
@@ -54,7 +54,7 @@ class Strawberry implements Fruit {
   }
 }
 
-class RaceManager {
+class FruitFactory {
   determineName(Fruit fruitInfo) => fruitInfo.name();
 
   determineColor(Fruit fruitInfo) => fruitInfo.color();
