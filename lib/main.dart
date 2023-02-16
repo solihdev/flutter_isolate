@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_isolate/services/local_notification_services.dart';
 import 'package:flutter_isolate/ui/download_example.dart';
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
